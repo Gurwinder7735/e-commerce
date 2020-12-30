@@ -1,0 +1,36 @@
+.navbar{
+  padding:  20px 60px;
+}
+
+.carousel-inner{
+  height: 250px;
+ }
+
+ .center-container{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+ }
+
+ .center-container>.nav-items{
+  
+ }
+
+ .nav-items{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   width: 100%;
+    margin-top: 5px;
+ }
+
+ .navbar-brand{
+   font-size: 40px;
+ }
+
+@media screen and (min-width: 800px) {
+  #responsive-navbar-nav {
+    /* display: flex; */
+    justify-content: space-between;
+  }
+}
